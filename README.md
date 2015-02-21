@@ -1,15 +1,7 @@
----
-title: "ReadMe for Course Project"
-author: "c2a0s14"
-date: "2015-02-21"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{ReadMe for Course Project}
-  %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
----
-####***Dataset Analysis and Tidying for UCI HAR Dataset* **         
-####***Analyzing Wearable Computing Data from Samsung Galaxy S Smartphone* **         
+
+#### ReadMe for *TidyDatasetProject* Course Project
+#####***Dataset Analysis and Tidying for UCI HAR Dataset* **         
+#####***Analyzing Wearable Computing Data from Samsung Galaxy S Smartphone* **         
 
 ***
 
@@ -173,7 +165,7 @@ For this assignment, we were asked to select only the mean() and std() sets of v
 
 >>
 features <- data.table(read.table("./UCI HAR Dataset/features.txt"))       
-msFeatures <- features[features[,grepl("mean\\(\\)|std\\(\\)", features$V2)]]
+msFeatures <- features[features[,grepl("mean&92;\\(\\)|std\\(\\)", features$V2)]]
 
 A total of 66 features were selected with a mean() and std() measurement.  With the columns of subject + activity + 66 features, this created our table of 68 columns.
 

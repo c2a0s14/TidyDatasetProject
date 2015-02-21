@@ -1,25 +1,13 @@
 
----
-title: "Code Book for Course Project"
-author: "c2a0s14"
-date: "2015-02-21"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Code Book for Course Project}
-  %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
----
-
-***
-
-####***Dataset Analysis and Tidying for the UCI HAR Dataset* **         
-####***Human Activity Recognition Using Smartphones Data Set* **         
+#### CodeBook for *TidyDatasetProject* Course Project
+#####***Dataset Analysis and Tidying for the UCI HAR Dataset* **         
+#####***Human Activity Recognition Using Smartphones Data Set* **         
 
 ***
 
 ## Introduction
 
-This CodeBook describes the variables, the data, and any transformations or work performed to clean up the data for the *Human Activity Recognition Using Smartphones Data Set*.
+This Code Book describes the variables, the data, and any transformations or work performed to clean up the data for the *Human Activity Recognition Using Smartphones Data Set*.
 
 
 ***
